@@ -1,0 +1,121 @@
+body{
+	background-image: url("gray_jean.png");
+	margin: 0;
+	margin-top: 0;
+	}
+
+	article {
+		float: left;
+		width: 650px;
+		height: 450px;
+		background-color: #ffffff;
+		margin-left: : 50px;
+		margin-bottom: 50px;
+		
+		}
+
+	#aboutText{
+		border-bottom: 1px solid #B8B8B8;
+		font-size: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		padding-right: 15px:;
+	}
+
+	img.notSelfie{
+		float:left;
+		padding: 10px 10px 0px 10px;
+	}
+
+	p{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+
+	header{
+		width: 100%;
+		height: 70px;
+		background-color: #ffffff;
+		margin-bottom: 50px;
+	}
+
+	#myName{
+		
+		width: 300px;
+		height: 50px;
+		background-color: #4aaaa5;
+		color: white;
+		text-align: center;
+		font-size: 35px;
+		padding-top:15px; 
+		padding-bottom: 5px;
+		display: inline;
+		float: left;
+
+	}
+
+
+
+	
+
+	#headerNav li{
+		float: right;
+		list-style: none;
+		display: inline;
+		border-left: #cccccc;
+		background-color: #ffffff;
+
+	}
+
+	#connectBox{
+		float: right;
+		display: inline-block;
+		width: 270px;
+		background-color: white;
+		padding: 20px 20px 30px 20px;
+		right: 150px;
+		
+	}
+
+	#connectText{
+		padding: 10px 0 10px 0;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #B8B8B8;
+		font-size: 25px;
+		color:teal;
+		text-align: center;
+
+	}
+
+	#connectLogos{
+		list-style: none;
+
+    	
+	}
+
+	#connectLogos li{
+		display: inline;
+		
+	}
+
+	.footer {
+ 		 position: absolute;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  padding: 10px;
+		  color:white;
+		  background-color: #666666;
+		  border-top:3px solid #4aaaa5;
+		  text-align: center;
+		
+		}
+
+
+
+
+
+
+
