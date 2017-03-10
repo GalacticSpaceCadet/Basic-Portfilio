@@ -15,22 +15,31 @@ body{
 		}
 
 	#aboutText{
-		border-bottom: 1px solid #B8B8B8;
+		border-bottom: 2px solid #cccccc;
+		color: #4aaaa5;
 		font-size: 25px;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		padding-left: 15px;
-		padding-right: 15px:;
+		padding-right: 15px;
+		margin-left: 25px; 
+		margin-right: 25px;
 	}
 
 	img.notSelfie{
 		float:left;
 		padding: 10px 10px 0px 10px;
+		margin-left: 15px;
+		margin-top: 20px;
 	}
 
 	p{
 		font-size: 16px;
 		line-height: 1.5;
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 20px;
+		color: #777777;
 	}
 
 
@@ -38,6 +47,7 @@ body{
 		width: 100%;
 		height: 70px;
 		background-color: #ffffff;
+		border-bottom: 2px solid #cccccc;
 		margin-bottom: 50px;
 	}
 
@@ -53,6 +63,7 @@ body{
 		padding-bottom: 5px;
 		display: inline;
 		float: left;
+		margin-left: 155px;
 
 	}
 
@@ -66,13 +77,17 @@ body{
 		display: inline;
 		border-left: #cccccc;
 		background-color: #ffffff;
+		color: #777777;
+		margin-right: 150px;
+		padding-top: 20px;
+		text-align: right;
 
 	}
 
 	#connectBox{
 		float: right;
 		display: inline-block;
-		width: 270px;
+		width: 200px;
 		background-color: white;
 		padding: 20px 20px 30px 20px;
 		right: 150px;
@@ -80,9 +95,9 @@ body{
 	}
 
 	#connectText{
-		padding: 10px 0 10px 0;
-		margin-bottom: 20px;
-		border-bottom: 1px solid #B8B8B8;
+		padding: 5px 0 5px 0;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #cccccc;
 		font-size: 25px;
 		color:teal;
 		text-align: center;
@@ -91,6 +106,7 @@ body{
 
 	#connectLogos{
 		list-style: none;
+		margin-left: 25px;
 
     	
 	}
@@ -105,13 +121,53 @@ body{
 		  right: 0;
 		  bottom: 0;
 		  left: 0;
-		  padding: 10px;
+		  padding: 15px;
 		  color:white;
 		  background-color: #666666;
 		  border-top:3px solid #4aaaa5;
 		  text-align: center;
-		
+
 		}
+.container{
+	width:960px;
+	margin: 0 auto;
+	}
+
+.contactContainer{
+	width:650px;
+	height:450px;
+	background-color: #ffffff;
+	border: 1px solid #777777;
+	float: left;
+}
+
+#contactText{
+	border-bottom: 2px solid #cccccc;
+	color: #4aaaa5;
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 25px; 
+	margin-right: 25px;
+	}
+
+input[type=text] {
+    width: 600px;
+    padding: 12px 20px;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+input[type=button], input[type=submit]{
+    background-color: #4aaaa5;
+    border: none;
+    color: #cccccc;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 5px 25px;
+}
+
 
 
 

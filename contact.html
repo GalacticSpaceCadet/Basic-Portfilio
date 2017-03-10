@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta charset="utf-8">
 	<title>Contact - Developers Portfolio</title>
@@ -8,40 +9,57 @@
 
 <body>
 
-<h1>Diana Gandy</h1>
+	<header class="header">
 
-	<header>
+		<div id="myName">
+			Diana Gandy
+		</div>
 		
-		<nav>
+		<div id="headerNav">
+			<nav>
 			<ul class="nav">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="portfolio.html">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</nav>
+			</nav>
+		</div>
 	</header>
 
-	<h2>Contact Me</h2>
-	
-		<form action="mailto:dileegan@icloud.com" method="post">
-			Name:<br>
-				<input type="text" name="name"><br>
-			E-mail:<br>
-				<input type="text" name="mail"><br>
-			Comment:<br>
-				<input type="text" name="comment"><br><br>
-			
-			<input type="submit" value="Send">
-			<input type="reset" value="Reset">
-		</form>
-	<div>
-		<h3>Connect with Me</h3>
-			<ul>
-				<li><img src="assets/images/githubbutton.png" alt="Git Hub Button" style="width:45px;height:45px;"></li>
-				<li><img src="assets/images/linkedin.png" alt="LinkedIn Button" style="width:45px;height:45px;"></li>
-				<li><img src="assets/images/stackoverflow.png" alt="Stackoverflow Button" style="width:41px;height:41px;" ></li>
 
-			</ul>
+	<div class="container">
+
+			<div class="contactContainer">
+
+				<div id=contactText>Contact Me
+				</div>
+				
+						<form action="mailto:dileegan@icloud.com" method="post">
+							     Name:<br>
+								<input type="text" name="name"><br>
+							E-mail:<br>
+								<input type="text" name="mail"><br>
+							Comment:<br>
+								<textarea rows="15" cols="60">
+								</textarea>
+								<br>
+							
+							<input type="submit" value="Submit">
+						</form>
+			</div>
+				
+			<div id="connectBox"> 
+			
+				<div id="connectText">
+					Connect with me
+				</div>
+					<ul id="connectLogos">
+						<li><img src="assets/images/githubbutton.png" alt="Git Hub Button" style="width:45px;height:45px;"></li>
+						<li><img src="assets/images/linkedin.png" alt="LinkedIn Button" style="width:45px;height:45px;"></li>
+						<li><img src="assets/images/stackoverflow.png" alt="Stackoverflow Button" style="width:40px;height:40px;"></li>
+
+					</ul>
+			</div>
 	</div>
 
 	<footer class="footer">
